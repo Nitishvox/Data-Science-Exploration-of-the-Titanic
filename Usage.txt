@@ -1,0 +1,53 @@
+Titanic Survival Prediction Project – Usage Guide
+
+This guide explains how to set up, explore, and run predictions using the Titanic dataset in a Jupyter Notebook environment.
+
+---
+
+## 📦 Prerequisites
+
+Ensure the following are installed:
+
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
+- Required libraries:
+  ```bash
+  pip install pandas numpy seaborn matplotlib scikit-learn plotly
+
+  Files Overview
+train.csv: Training dataset with survival labels
+
+titanic_model.ipynb: Jupyter Notebook with data preprocessing, EDA, modeling, and prediction logic
+
+USAGE.md: Documentation file explaining usage
+
+Optionally: requirements.txt for dependency tracking
+
+Running the Project
+Open the Notebook Launch the Jupyter environment and open titanic_model.ipynb.
+
+Load Dataset Make sure train.csv is in the same directory.
+
+Run Cells Execute all cells in order—from loading the data to EDA and model training.
+
+Make Predictions
+
+Use interactive input cells to simulate survival predictions.
+
+Optionally modify new_passenger data in the model cell for custom predictions.
+
+Key Features
+Missing value treatment using median/mode strategy
+
+Visualizations with Seaborn and Plotly (interactive heatmap)
+
+Models: Logistic Regression, Random Forest, Gradient Boosting
+
+User input prediction logic via the trained model
+
+Output Examples
+Accuracy scores and classification reports for each model
+
+Interactive confusion matrix visualization
+
+Live prediction result (e.g., “✅ Prediction: This passenger survived.”)
