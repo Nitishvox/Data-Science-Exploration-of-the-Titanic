@@ -1,4 +1,5 @@
 # 🛳️ Titanic Survival Prediction
+![Titanic Centennial](https://www.usni.org/sites/default/files/styles/hero_image/public/magazine_uploads/images/ProtasioFOMA12.jpg?itok=8aFRMKPz)
 
 A data science project analyzing the Titanic dataset to uncover survival patterns and build predictive models using Python.
 
